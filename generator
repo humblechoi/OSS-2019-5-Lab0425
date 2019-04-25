@@ -5,7 +5,7 @@ start=0
 #echo > log.txt "$SECONDS"
 [[ -e log.txt ]] || echo > log.txt "$SECONDS"
 
-SPOILER="I watched Avengers: Endgame."
+SPOILER="Spoiler Alert!."
 
 while ((1))
 do
@@ -13,6 +13,7 @@ do
 	then
 		echo "$SECONDS"
 		echo >> log.txt "$SECONDS"
+		sleep 1
 		start=$SECONDS
 		
 		RAND=$RANDOM
