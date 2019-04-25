@@ -5,7 +5,7 @@ start=0
 #echo > log.txt "$SECONDS"
 [[ -e log.txt ]] || echo > log.txt "$SECONDS"
 
-SPOILER="Spoiler Alert!."
+SPOILER="I watched movie!."
 
 while ((1))
 do
